@@ -43,6 +43,7 @@ int main(){
     cout<<knapsack(wt, val, n, w)<<"\n";
 }
 
+//Recursive Definition
 int knapsack(int wt[], int val[], int n, int w){
     if(n == 0 || w == 0)
         return 0;
